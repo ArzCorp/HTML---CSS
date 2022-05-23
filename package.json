@@ -1,0 +1,24 @@
+{
+	"name": "html-css",
+	"version": "1.0.0",
+	"description": "This repository is just for practicing HTML and CSS concepts.",
+	"main": "./src/index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ArzCorp/HTML-CSS.git"
+	},
+	"keywords": [
+		"HTML",
+		"CSS",
+		"practice"
+	],
+	"author": "Osvaldo Arzate Santiago (_ArzCorp_)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ArzCorp/HTML-CSS/issues"
+	},
+	"homepage": "https://github.com/ArzCorp/HTML-CSS#readme"
+}

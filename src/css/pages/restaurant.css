@@ -46,8 +46,42 @@ body {
 }
 
 .description__text {
-	width: 90%;
-	font-size: 1.3rem;
+	width: 80%;
 	font-weight: 600;
 	margin-bottom: 30px;
+}
+
+.title {
+	margin: 40px;
+	text-align: center;
+	color: black;
+	opacity: 0.5;
+}
+
+.service__images {
+	display: grid;
+	gap: 30px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 300px);
+}
+
+.service__images img {
+	object-fit: cover;
+}
+
+.service__video {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.menu__images {
+	display: grid;
+	gap: 40px;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.menu__images img {
+	background-color: mistyrose;
 }

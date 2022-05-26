@@ -1,0 +1,32 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #3dbeff;
+}
+
+.header__navbar ul {
+	display: flex;
+	list-style: none;
+	gap: 30px;
+	color: white;
+}
+
+.header__navbar ul li {
+	font-size: 1rem;
+}

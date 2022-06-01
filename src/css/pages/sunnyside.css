@@ -1,3 +1,11 @@
+/* VARIABLES */
+
+:root {
+	--text-sm: 0.938rem; /* 15px */
+}
+
+/* GENERAL */
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -5,7 +13,21 @@
 	box-sizing: border-box;
 }
 
-/* GENERAL STYLES */
+html {
+	font-size: 16px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0px auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	grid-template-columns: inherit;
+	grid-auto-rows: inherit;
+	gap: inherit;
+}
 
 .btn {
 	padding: 10px 20px;
@@ -13,6 +35,12 @@
 	color: black;
 	font-weight: 600;
 	border-radius: 30px;
+}
+
+.btn:hover {
+	background-color: rgba(255, 255, 255, 0.4);
+	will-change: opacity;
+	color: white;
 }
 
 /* HEADER */
@@ -27,6 +55,7 @@
 }
 
 .navbar ul {
+	font-size: var(--text-sm);
 	display: flex;
 	align-items: center;
 	gap: 40px;

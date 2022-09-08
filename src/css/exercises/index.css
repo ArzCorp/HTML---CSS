@@ -1,0 +1,14 @@
+.father {
+	width: 828px;
+	height: 828px;
+	border: 1px solid blue;
+	background-size: auto 50%;
+	background: linear-gradient(90deg, #ffc0cb 50%, #00ffff 50%);
+}
+
+.son {
+	width: 303px;
+	height: 303px;
+	border: 1px solid red;
+	width: calc(303px * 828px);
+}

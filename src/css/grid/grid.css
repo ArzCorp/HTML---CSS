@@ -11,13 +11,10 @@ body {
 .grid-container {
 	height: 100%;
 	display: grid;
-	grid-auto-rows: 50px;
-	grid-auto-columns: 50px;
-	place-content: center;
+	grid-template-columns: repeat(2, minmax(320px, 1fr));
 }
 
 .one {
-	grid-area: 1 / 1 / 4 / 4;
 	background-color: #3b82f6;
 }
 

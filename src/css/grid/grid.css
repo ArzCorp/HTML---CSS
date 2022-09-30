@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 	font-family: Arial, Helvetica, sans-serif;
 	--primary-color: #2563eb;
 	--primary-color-light: #93c5fd;
@@ -13,27 +14,26 @@ body {
 	width: 100%;
 	height: 100vh;
 	background-color: var(--white-color);
-	display: grid;
-	grid-auto-flow: column;
-	place-items: center;
-	gap: 20px;
+	padding: 30px;
 }
 
-.container {
-	display: grid;
+.element {
+	background-color: var(--primary-color-light);
 	border: 2px solid var(--primary-color);
-	width: 250px;
-	height: 250px;
-	padding: 10px;
-	gap: 10px;
+	height: 50px;
 }
 
-.son {
-	border: 1px solid var(--primary-color-dark);
+.block {
+	display: block;
 }
 
-.container-son {
-	border: 2px solid var(--primary-color-dark);
-	width: auto;
-	height: auto;
+.inline {
+	display: inline;
+}
+
+.inline-grid {
+	height: 300px;
+	width: 200px;
+	display: inline-grid;
+	grid-template-columns: repeat(2, 1fr);
 }
